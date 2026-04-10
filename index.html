@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Charger Finder | South Australia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <div class="logo">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+                <span>EV Charger Finder</span>
+            </div>
+        </div>
+        <div class="header-filters">
+            <div class="filter-bar">
+                <div class="filter-item">
+                    <div class="input-wrapper">
+                        <input type="text" id="postcode" class="filter-input" placeholder="Location or postcode">
+                        <button type="button" id="use-location" class="location-btn" title="Use my location">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M12 2v4m0 12v4M2 12h4m12 0h4"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <select id="radius" class="filter-select">
+                        <option value="5">5 km</option>
+                        <option value="10">10 km</option>
+                        <option value="25" selected>25 km</option>
+                        <option value="50">50 km</option>
+                        <option value="100">100 km</option>
+                        <option value="0">All of SA</option>
+                    </select>
+                </div>
+
+                <div class="filter-item dropdown">
+                    <button type="button" class="dropdown-toggle" id="power-dropdown-btn">
+                        <span>Power</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m6 9 6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu" id="power-dropdown">
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="power" value="7" checked>
+                            <span class="checkbox-custom"></span>
+                            <span>7 kW</span>
+                            <span class="power-tag slow">Slow</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="power" value="22" checked>
+                            <span class="checkbox-custom"></span>
+                            <span>Up to 22 kW</span>
+                            <span class="power-tag medium">Medium</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="power" value="50" checked>
+                            <span class="checkbox-custom"></span>
+                            <span>Up to 50 kW</span>
+                            <span class="power-tag fast">Fast</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="power" value="150" checked>
+                            <span class="checkbox-custom"></span>
+                            <span>50+ kW</span>
+                            <span class="power-tag ultra">Ultra</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-item dropdown">
+                    <button type="button" class="dropdown-toggle" id="plug-dropdown-btn">
+                        <span>Plug Type</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m6 9 6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu" id="plug-dropdown">
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="plug" value="Type 2" checked>
+                            <span class="checkbox-custom"></span>
+                            <span>Type 2</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="plug" value="CCS2" checked>
+                            <span class="checkbox-custom"></span>
+                            <span>CCS2</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="plug" value="CHAdeMO" checked>
+                            <span class="checkbox-custom"></span>
+                            <span>CHAdeMO</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <label class="toggle-item">
+                        <input type="checkbox" id="available-only">
+                        <span class="toggle-switch"></span>
+                        <span>Available only</span>
+                    </label>
+                </div>
+
+                <button type="button" id="reset-filters" class="btn-reset">Reset</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <aside class="results-panel">
+            <div class="results-header">
+                <span id="results-number">0</span> chargers found
+            </div>
+            <div id="results-list" class="results-list"></div>
+        </aside>
+
+        <section class="map-container">
+            <div id="map"></div>
+            <div id="map-loading" class="map-loading">
+                <div class="loading-spinner"></div>
+                <span>Loading chargers...</span>
+            </div>
+        </section>
+    </main>
+
+    <div id="charger-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP0SnrBpNSbGtw7i_ybKz0QIG_Fr4sUoU&callback=initMap&libraries=places"></script>
+</body>
+</html>

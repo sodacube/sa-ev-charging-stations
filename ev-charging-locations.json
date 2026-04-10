@@ -1,0 +1,4497 @@
+{
+  "IsSuccess": true,
+  "Result": [
+    {
+      "ID": 1,
+      "SiteName": "RAA Charge UPark Rundle Street",
+      "Address": "187 Rundle Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.922894,
+      "Long": 138.6059549,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 22kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 22,
+          "Total": 23,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "SiteName": "RAA Charge Auto Park Gilles Street",
+      "Address": "12-24 Gilles Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.933898,
+      "Long": 138.6011239,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "SiteName": "RAA Charge UPark Grote Street",
+      "Address": "82 Grote Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.928671,
+      "Long": 138.5958115,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 6,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "SiteName": "RAA Charge Auto Park Wakefield Street",
+      "Address": "102-120 Wakefield Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.928058,
+      "Long": 138.6044271,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "SiteName": "RAA Charge Waikerie",
+      "Address": " Strangman Rd, Waikerie SA 5330",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.182134,
+      "Long": 139.9863235,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"CCS2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 1,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "SiteName": "RAA Charge Burnside",
+      "Address": "401 Greenhill Road, Tusmore SA 5065",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.937936,
+      "Long": 138.6424809,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 0,
+          "Total": 1,
+          "Statuses": [
+            "In Use"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 7,
+      "SiteName": "RAA Charge Hawker",
+      "Address": "13 Wilpena Road, Hawker SA 5434",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -31.887653,
+      "Long": 138.4232958,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "SiteName": "RAA Charge Waikerie Hotel Motel",
+      "Address": "2 McCoy Street, Waikerie SA 5330",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.179573,
+      "Long": 139.9850223,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "SiteName": "RAA Charge Comfort Inn Regal Park",
+      "Address": "44 Barton Terrace East, North Adelaide SA 5006",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.903624,
+      "Long": 138.5961912,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 10,
+      "SiteName": "RAA Charge UPark Frome Street",
+      "Address": "22 Frome Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.92195,
+      "Long": 138.6080443,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 9,
+          "Total": 11,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 11,
+      "SiteName": "RAA Charge UPark Light Square",
+      "Address": "140 Currie Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.923947,
+      "Long": 138.5942548,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 6,
+          "Total": 6,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 12,
+      "SiteName": "RAA Charge Glenelg",
+      "Address": " Brighton Road, Glenelg East SA 5045",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.984006,
+      "Long": 138.5206135,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 13,
+      "SiteName": "RAA Charge Churchill Centre",
+      "Address": "400 Churchill Road, Kilburn SA 5084",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.86713,
+      "Long": 138.5828104,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 0,
+          "Total": 1,
+          "Statuses": [
+            "In Use"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 14,
+      "SiteName": "RAA Charge Victor Harbor",
+      "Address": "21 Torrens Street, Victor Harbor SA 5211",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.553993,
+      "Long": 138.6200381,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 15,
+      "SiteName": "RAA Charge UPark Topham Mall",
+      "Address": "54 Waymouth Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.925357,
+      "Long": 138.5974987,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 22kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 8,
+          "Total": 13,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 16,
+      "SiteName": "RAA Charge CBD Franklin Street",
+      "Address": "109 Franklin Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.92766,
+      "Long": 138.5952364,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging up to 125kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 0,
+          "Total": 2,
+          "Statuses": [
+            "In Use"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 17,
+      "SiteName": "RAA Charge UPark Wyatt Street",
+      "Address": "18 Wyatt Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.925058,
+      "Long": 138.6040762,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"}]",
+      "NiceSiteType": "Charging up to 22kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 9,
+          "Total": 16,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 18,
+      "SiteName": "RAA Charge Yalata",
+      "Address": "66804 Eyre Highway, Yalata SA 5690",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -31.496502,
+      "Long": 131.8127541,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 50kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 19,
+      "SiteName": "RAA Charge Bordertown",
+      "Address": " Adamson Terrace, Bordertown SA 5268",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -36.308952,
+      "Long": 140.7815677,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 20,
+      "SiteName": "RAA Charge Goolwa",
+      "Address": "11 Cadell Street, Goolwa SA 5214",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.502073,
+      "Long": 138.7813072,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 21,
+      "SiteName": "RAA Charge Loxton Courthouse Apartments",
+      "Address": "45 Bookpurnong Terrace, Loxton SA 5333",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.452086,
+      "Long": 140.5720624,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 22,
+      "SiteName": "RAA Charge Tailem Bend",
+      "Address": "66 Princes Highway, Tailem Bend SA 5260",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.257926,
+      "Long": 139.455134,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 23,
+      "SiteName": "RAA Charge Port Augusta South",
+      "Address": "20203 Augusta Highway, Port Augusta SA 5700",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.511625,
+      "Long": 137.8036782,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 24,
+      "SiteName": "RAA Charge Seaford",
+      "Address": " Commercial Rd and Main St, Seaford SA 5169",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.187521,
+      "Long": 138.4779837,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 25,
+      "SiteName": "RAA Charge Mount Gambier",
+      "Address": "2 Sturt Street, Mount Gambier SA 5290",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -37.830685,
+      "Long": 140.7804699,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"CCS2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"CCS2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 4,
+          "Total": 7,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 0,
+          "Total": 1,
+          "Statuses": [
+            "In Use"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 26,
+      "SiteName": "RAA Charge Kingscote Playground",
+      "Address": "7 Kingscote Terrace, Kingscote SA 5223",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.654977,
+      "Long": 137.6410912,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 27,
+      "SiteName": "RAA Charge RAA Shop Mile End",
+      "Address": "101 Richmond Road, Mile End SA 5031",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.941584,
+      "Long": 138.5735614,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 28,
+      "SiteName": "RAA Charge Tintinara",
+      "Address": "13 Dukes Highway, Tintinara SA 5266",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.885894,
+      "Long": 140.058336,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 29,
+      "SiteName": "RAA Charge Fifteenth Street",
+      "Address": "143 Fifteenth Street, Renmark SA 5341",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.173861,
+      "Long": 140.7488962,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 30,
+      "SiteName": "RAA Charge Mount Gambier Hotel",
+      "Address": "2 Commercial Street West, Mount Gambier SA 5290",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -37.828115,
+      "Long": 140.7807536,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 31,
+      "SiteName": "RAA Charge Tea Tree Plaza Park 'n' Ride",
+      "Address": " Smart Road, Modbury SA 5092",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.831217,
+      "Long": 138.695039,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 8,
+          "Total": 8,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 32,
+      "SiteName": "RAA Charge Marla Travellers Rest",
+      "Address": "1 Stuart Highway, Marla SA 5724",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -27.303731,
+      "Long": 133.6232384,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 33,
+      "SiteName": "RAA Charge Port Pirie",
+      "Address": "3 Mary Elie Street, Port Pirie SA 5540",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.180735,
+      "Long": 138.0114427,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 7,
+          "Total": 7,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 34,
+      "SiteName": "RAA Charge Transmutation",
+      "Address": "14 Flint Street, Robe SA 5276",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -37.172456,
+      "Long": 139.7597921,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 35,
+      "SiteName": "RAA Charge UPark Central Market",
+      "Address": "Level 1, 25-29 Grote St, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.929273,
+      "Long": 138.5969551,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"},{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 22kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 8,
+          "Total": 11,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 36,
+      "SiteName": "RAA Charge Normanville",
+      "Address": "83 Andrew Avenue, Normanville SA 5204",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.447155,
+      "Long": 138.3184545,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 0,
+          "Total": 1,
+          "Statuses": [
+            "In Use"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 37,
+      "SiteName": "RAA Charge Clare",
+      "Address": "15 Gleeson Street, Clare SA 5453",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.834356,
+      "Long": 138.6104246,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 0,
+          "Total": 1,
+          "Statuses": [
+            "In Use"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 38,
+      "SiteName": "RAA Charge Port Augusta North",
+      "Address": " Wharflands Esplanade, Port Augusta SA 5700",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.489525,
+      "Long": 137.7610399,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 0,
+          "Total": 1,
+          "Statuses": [
+            "In Use"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 39,
+      "SiteName": "RAA Charge Kingston Lobster Motel",
+      "Address": "4 Princes Highway, Kingston SE SA 5275",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -36.824344,
+      "Long": 139.8630358,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 40,
+      "SiteName": "RAA Charge Naracoorte",
+      "Address": "26 Robertson Street, Naracoorte SA 5271",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -36.956911,
+      "Long": 140.7437517,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 41,
+      "SiteName": "RAA Charge Nuriootpa",
+      "Address": "1 Murray Street, Nuriootpa SA 5355",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.474935,
+      "Long": 138.9934734,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 42,
+      "SiteName": "RAA Charge Lakeview Motel",
+      "Address": "2 Lakeside Terrace, Robe SA 5276",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -37.168871,
+      "Long": 139.7682005,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 43,
+      "SiteName": "RAA Charge Port Lincoln",
+      "Address": "2 Eyre Street, Port Lincoln SA 5606",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.722394,
+      "Long": 135.8629354,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 44,
+      "SiteName": "RAA Charge Woodside",
+      "Address": "3 Tiers Road, Woodside SA 5244",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.952712,
+      "Long": 138.8741842,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 45,
+      "SiteName": "RAA Charge Monarto Safari Park",
+      "Address": "63 Monarto Road, Rocky Gully SA 5254",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.087032,
+      "Long": 139.1623994,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 46,
+      "SiteName": "RAA Charge Crossroads Ecomotel",
+      "Address": "43 Eyre Highway, Port Augusta West SA 5700",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.481158,
+      "Long": 137.7545332,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 47,
+      "SiteName": "RAA Charge Lakes Resort Hotel",
+      "Address": "141 Brebner Drive, West Lakes SA 5021",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.879979,
+      "Long": 138.4889958,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 48,
+      "SiteName": "RAA Charge Auto Park Young Street",
+      "Address": "16-30 Young Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.926679,
+      "Long": 138.5961385,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 49,
+      "SiteName": "RAA Charge Jamestown",
+      "Address": "66 Irvine Street, Jamestown SA 5491",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.206118,
+      "Long": 138.6053114,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 50,
+      "SiteName": "RAA Charge Arkaba Hotel",
+      "Address": "150 Glen Osmond Road, Fullarton SA 5063",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.947087,
+      "Long": 138.6256538,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"}]",
+      "NiceSiteType": "Charging up to 22kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "$0.30 - $0.37/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 51,
+      "SiteName": "RAA Charge Mt Barker",
+      "Address": "6 Dutton Road, Mount Barker SA 5251",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.067875,
+      "Long": 138.865237,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 0,
+          "Total": 1,
+          "Statuses": [
+            "In Use"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 52,
+      "SiteName": "RAA Charge Grosvenor Gardens",
+      "Address": " Stuart Street, Victor Harbor SA 5211",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.553718,
+      "Long": 138.6219967,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 53,
+      "SiteName": "RAA Charge Cowell",
+      "Address": "9 Jetty Road, Cowell SA 5602",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.68519,
+      "Long": 136.9290181,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 54,
+      "SiteName": "RAA Charge Port Wakefield",
+      "Address": "29 Burra Street, Port Wakefield SA 5550",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.186052,
+      "Long": 138.1465931,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 55,
+      "SiteName": "RAA Charge Old Noarlunga Hotel",
+      "Address": "38 Patapinda Road, Old Noarlunga SA 5168",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.182424,
+      "Long": 138.5016406,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 56,
+      "SiteName": "RAA Charge Wallaroo Holiday Park",
+      "Address": "1 Pamir Court, Wallaroo SA 5556",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.920237,
+      "Long": 137.6316652,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 57,
+      "SiteName": "RAA Charge UPark Pirie Street",
+      "Address": "41  Sudholz Place, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.925709,
+      "Long": 138.6073757,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 5,
+          "Total": 6,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 58,
+      "SiteName": "RAA Charge Comfort Inn Glenelg",
+      "Address": "626 Anzac Highway, Glenelg East SA 5045",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.976927,
+      "Long": 138.5252888,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 59,
+      "SiteName": "RAA Charge Lady Bay Resort",
+      "Address": "73 Saint Andrews Boulevard, Normanville SA 5204",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.461882,
+      "Long": 138.3159957,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 60,
+      "SiteName": "RAA Charge Penola Coonawarra Caravan Park",
+      "Address": "5 South Terrace, Penola SA 5277",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -37.386087,
+      "Long": 140.8345834,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 61,
+      "SiteName": "Centennial Park Cemetery - Wildflowers Cafe",
+      "Address": "760 Goodwood Road, Pasadena SA 5042",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.997404,
+      "Long": 138.58977,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 22kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "$0.00 - $0.00/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 62,
+      "SiteName": "RAA Charge Auto Park Mill Street",
+      "Address": "19-21 Mill Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.930847,
+      "Long": 138.5986204,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 63,
+      "SiteName": "RAA Charge Streaky Bay",
+      "Address": "82 Wells Street, Streaky Bay SA 5680",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.797519,
+      "Long": 134.1989712,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 64,
+      "SiteName": "RAA Charge Comfort Inn Flinders On Main",
+      "Address": "151 Main Road, Solomontown SA 5540",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.185215,
+      "Long": 138.0242429,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 65,
+      "SiteName": "RAA Charge Reisen Hotel",
+      "Address": "25 Mount Barker Road, Hahndorf SA 5245",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.031869,
+      "Long": 138.8114715,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 66,
+      "SiteName": "RAA Charge Truro",
+      "Address": "28 James Street West, Truro SA 5356",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.40941,
+      "Long": 139.126811,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 67,
+      "SiteName": "RAA Charge Warnertown Bakery & Cafe",
+      "Address": "11200 Augusta Highway, Warnertown SA 5540",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.235605,
+      "Long": 138.1195429,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 68,
+      "SiteName": "RAA Charge Blackwood",
+      "Address": "10 Young Street, Blackwood SA 5051",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.019707,
+      "Long": 138.6146362,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 69,
+      "SiteName": "RAA Charge The Bentleys Hotel",
+      "Address": "191 Main North Road, Clare SA 5453",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.835266,
+      "Long": 138.6141094,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 70,
+      "SiteName": "RAA Charge Ceduna",
+      "Address": "32 O'Loughlin Terrace, Ceduna SA 5690",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.126206,
+      "Long": 133.6727593,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 71,
+      "SiteName": "RAA Charge Glendambo Roadhouse",
+      "Address": " Stuart Highway, Glendambo SA 5719",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -30.967831,
+      "Long": 135.7495592,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 20kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 72,
+      "SiteName": "RAA Charge Auto Park Franklin Street",
+      "Address": "42 Franklin Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.927114,
+      "Long": 138.597241,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 73,
+      "SiteName": "RAA Charge Stirling Hotel",
+      "Address": "52 Mount Barker Road, Stirling SA 5152",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.006519,
+      "Long": 138.7180239,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 74,
+      "SiteName": "RAA Charge Penneshaw",
+      "Address": "11 Frenchmans Terrace, Penneshaw SA 5222",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.719303,
+      "Long": 137.9411112,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 75,
+      "SiteName": "RAA Charge Morgan",
+      "Address": "17 Railway Terrace, Morgan SA 5320",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.036744,
+      "Long": 139.6709641,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 76,
+      "SiteName": "RAA Charge Auto Park Frome Street",
+      "Address": "15 Frome Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.921674,
+      "Long": 138.6075894,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 6,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 77,
+      "SiteName": "RAA Charge Pimba",
+      "Address": " Stuart Highway, Pimba SA 5720",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -31.255927,
+      "Long": 136.8028663,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 78,
+      "SiteName": "RAA Charge Renmark",
+      "Address": "240 Renmark Avenue, Renmark SA 5341",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.178144,
+      "Long": 140.74136,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 79,
+      "SiteName": "RAA Charge Sundowner Hotel Motel",
+      "Address": "232 Broadbent Terrace, Whyalla Norrie SA 5608",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.042008,
+      "Long": 137.5399634,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 80,
+      "SiteName": "RAA Charge Burra",
+      "Address": "2 Bridge Terrace, Burra SA 5417",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.681623,
+      "Long": 138.9404227,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 81,
+      "SiteName": "RAA Charge Brickworks",
+      "Address": "38 South Road, Torrensville SA 5031",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.913003,
+      "Long": 138.563003,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 0,
+          "Total": 1,
+          "Statuses": [
+            "In Use"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 82,
+      "SiteName": "RAA Charge SA Produce Market",
+      "Address": " Burma Road, Pooraka SA 5095",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.830617,
+      "Long": 138.6062258,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "$0.30 - $0.37/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 5,
+          "Total": 5,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 83,
+      "SiteName": "RAA Charge Coffin Bay",
+      "Address": "134 Esplanade, Coffin Bay SA 5607",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.621774,
+      "Long": 135.4690489,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 84,
+      "SiteName": "RAA Charge Melrose Caravan Park",
+      "Address": " Joes Road, Melrose SA 5483",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.824655,
+      "Long": 138.1871605,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 85,
+      "SiteName": "RAA Charge KI Seafront Hotel",
+      "Address": "8 North Terrace, Penneshaw SA 5222",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.717232,
+      "Long": 137.9379164,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 86,
+      "SiteName": "RAA Charge Snowtown",
+      "Address": "4765 Augusta Highway, Snowtown SA 5520",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.773798,
+      "Long": 138.211893,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 87,
+      "SiteName": "RAA Charge Wudinna",
+      "Address": "44 Ballantyne Street, Wudinna SA 5652",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.047258,
+      "Long": 135.4619549,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 88,
+      "SiteName": "RAA Charge Peterborough",
+      "Address": "251 Main Street, Peterborough SA 5422",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.973503,
+      "Long": 138.8335735,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 89,
+      "SiteName": "RAA Charge Whyalla",
+      "Address": "10 Nicolson Avenue, Whyalla Norrie SA 5608",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.026447,
+      "Long": 137.5322099,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 0,
+          "Total": 1,
+          "Statuses": [
+            "In Use"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 90,
+      "SiteName": "RAA Charge Kingston S.E.",
+      "Address": "1 Marine Parade, Kingston SE SA 5275",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -36.828238,
+      "Long": 139.8496511,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 91,
+      "SiteName": "RAA Charge Pine Country Caravan Park",
+      "Address": "2-16 Kilsby Road, Moorak SA 5291",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -37.856263,
+      "Long": 140.763398,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 92,
+      "SiteName": "RAA Charge Minlaton",
+      "Address": "18 Fourth Street, Minlaton SA 5575",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.770993,
+      "Long": 137.5948324,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 93,
+      "SiteName": "RAA Charge Kadina",
+      "Address": "21 Frances Terrace, Kadina SA 5554",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.965187,
+      "Long": 137.7147002,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 94,
+      "SiteName": "RAA Charge Old Chaff Mill Retreat",
+      "Address": "371 Plains Road, Sellicks Hill SA 5174",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.30871,
+      "Long": 138.4874345,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 95,
+      "SiteName": "RAA Charge Woolshed Inn",
+      "Address": "101 Woolshed Street, Bordertown SA 5268",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -36.308712,
+      "Long": 140.7737506,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 96,
+      "SiteName": "RAA Charge Blue Lake Holiday Park",
+      "Address": "100 Bay Road, Mount Gambier SA 5290",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -37.844453,
+      "Long": 140.7692014,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 97,
+      "SiteName": "RAA Charge Barker Reserve",
+      "Address": " Bay Road, Victor Harbor SA 5211",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.557716,
+      "Long": 138.6121769,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 98,
+      "SiteName": "RAA Charge Ardrossan",
+      "Address": "26 North Terrace, Ardrossan SA 5571",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.422137,
+      "Long": 137.9188788,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 99,
+      "SiteName": "RAA Charge Port Lincoln Leisure Centre",
+      "Address": "2 Jubilee Drive, Port Lincoln SA 5606",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.744108,
+      "Long": 135.8739272,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 100,
+      "SiteName": "RAA Charge The Lord Lyndoch",
+      "Address": "23 Barossa Valley Way, Lyndoch SA 5351",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.600733,
+      "Long": 138.8905298,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"OUTOFORDER\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 101,
+      "SiteName": "RAA Charge Wilmington",
+      "Address": "41 Horrocks Highway, Wilmington SA 5485",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.64992,
+      "Long": 138.0973784,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 102,
+      "SiteName": "RAA Charge Lameroo Hotel Motel",
+      "Address": "80 Railway Terrace North, Lameroo SA 5302",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.328861,
+      "Long": 140.5181835,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 103,
+      "SiteName": "RAA Charge Barmera",
+      "Address": " Barwell Avenue, Barmera SA 5345",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.251048,
+      "Long": 140.4650463,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 104,
+      "SiteName": "RAA Charge Leigh Creek",
+      "Address": "21 Black Oak Drive, Leigh Creek SA 5731",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -30.59171,
+      "Long": 138.3991962,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 105,
+      "SiteName": "RAA Charge Myponga Reservoir",
+      "Address": " Hansen Street, Myponga SA 5202",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.39078,
+      "Long": 138.4629568,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 106,
+      "SiteName": "RAA Charge Keith Motor Inn",
+      "Address": "39 Memorial Avenue, Keith SA 5267",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -36.093267,
+      "Long": 140.3497327,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 107,
+      "SiteName": "RAA Charge KI Seafront Holiday Park",
+      "Address": "8 Frenchmans Terrace, Penneshaw SA 5222",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.719391,
+      "Long": 137.9404976,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 108,
+      "SiteName": "RAA Charge Serafino Vineyards",
+      "Address": "39 Kangarilla Road, McLaren Vale SA 5171",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.22234,
+      "Long": 138.5534109,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 109,
+      "SiteName": "RAA Charge Tumby Bay",
+      "Address": "27 West Terrace, Tumby Bay SA 5605",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.376339,
+      "Long": 136.1008972,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 110,
+      "SiteName": "RAA Charge Pinnaroo",
+      "Address": "21 Day Street, Pinnaroo SA 5304",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.260685,
+      "Long": 140.9084574,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 111,
+      "SiteName": "RAA Charge Coonalpyn",
+      "Address": "19 Poyntz Terrace, Coonalpyn SA 5265",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.694942,
+      "Long": 139.8561946,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 112,
+      "SiteName": "RAA Charge Paxton Square Cottages",
+      "Address": "1 Kingston Street, Burra SA 5417",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.680263,
+      "Long": 138.9393126,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 113,
+      "SiteName": "RAA Charge Roxby Downs",
+      "Address": " Richardson Place, Roxby Downs SA 5725",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -30.561901,
+      "Long": 136.8980483,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 114,
+      "SiteName": "RAA Charge Elliston",
+      "Address": " Beach Terrace, Elliston SA 5670",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.647999,
+      "Long": 134.888666,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 115,
+      "SiteName": "RAA Charge Guichen Bay Motel",
+      "Address": "42 Victoria Street, Robe SA 5276",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -37.1656,
+      "Long": 139.7618234,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 116,
+      "SiteName": "RAA Charge Southgate Motel",
+      "Address": "175 Commercial Street East, Mount Gambier SA 5290",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -37.832144,
+      "Long": 140.7936848,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 117,
+      "SiteName": "RAA Charge Port Lincoln Airport",
+      "Address": " Barry Firth Drive, North Shields SA 5607",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.603863,
+      "Long": 135.8730915,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 118,
+      "SiteName": "RAA Charge Pastoral Hotel",
+      "Address": "17 Stirling Road, Port Augusta SA 5700",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.496531,
+      "Long": 137.7693986,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 119,
+      "SiteName": "RAA Charge Gladstone District Hall",
+      "Address": " Cross Street, Gladstone SA 5473",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.26739,
+      "Long": 138.3555828,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "$0.30 - $0.37/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 120,
+      "SiteName": "RAA Charge The Osmond Motel & Apartments",
+      "Address": "232 Glen Osmond Road, Fullarton SA 5063",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.950282,
+      "Long": 138.6313146,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 121,
+      "SiteName": "RAA Charge Novotel Barossa Valley Resort",
+      "Address": "42 Pioneer Avenue, Rowland Flat SA 5352",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.562466,
+      "Long": 138.9273683,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 122,
+      "SiteName": "RAA Charge Streaky Bay Hotel",
+      "Address": "33 Alfred Terrace, Streaky Bay SA 5680",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.796305,
+      "Long": 134.2104506,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 123,
+      "SiteName": "RAA Charge The Park Jamestown Villas",
+      "Address": "86 Cockburn Road, Jamestown SA 5491",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.20705,
+      "Long": 138.6201536,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 124,
+      "SiteName": "RAA Charge Northern Areas Council",
+      "Address": "94 Ayr Street, Jamestown SA 5491",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.204824,
+      "Long": 138.6021704,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 125,
+      "SiteName": "RAA Charge Aberdeen Lane",
+      "Address": "67 Onkaparinga Valley Road, Woodside SA 5244",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.95095,
+      "Long": 138.8756147,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 126,
+      "SiteName": "RAA Charge Kimba",
+      "Address": "15442 Eyre Highway, Kimba SA 5641",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.14547,
+      "Long": 136.4160419,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 127,
+      "SiteName": "RAA Charge Comfort Inn & Suites Manhattan",
+      "Address": "471 Main North Road, Enfield SA 5085",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.85051,
+      "Long": 138.6017511,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 128,
+      "SiteName": "RAA Charge Comfort Inn & Suites Riverland",
+      "Address": " Hawdon Street, Barmera SA 5345",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.246431,
+      "Long": 140.4728529,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 129,
+      "SiteName": "RAA Charge KI Airport",
+      "Address": " Arronmore Road, Cygnet River SA 5223",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.709244,
+      "Long": 137.5233417,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 6,
+          "Total": 6,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 130,
+      "SiteName": "RAA Charge Meningie",
+      "Address": "49 Princes Highway, Meningie SA 5264",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.688009,
+      "Long": 139.3376712,
+      "Distance": 0.0,
+      "SiteType": "200",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CHAdeMO\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 200kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CHAdeMO",
+          "AvailableCount": 1,
+          "Total": 1,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 131,
+      "SiteName": "RAA Charge Monarto Safari Park Hotel",
+      "Address": "63 Monarto Road, Monarto SA 5254",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.095014,
+      "Long": 139.173172,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 132,
+      "SiteName": "RAA Charge Marion Holiday Park",
+      "Address": "323 Sturt Road, Bedford Park SA 5042",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.01737,
+      "Long": 138.5617335,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"CHARGING\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 133,
+      "SiteName": "RAA Charge Kimba Bowling Club",
+      "Address": " North Terrace, Kimba SA 5641",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.134949,
+      "Long": 136.4164262,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 134,
+      "SiteName": "RAA Charge Bonnies of Beachport",
+      "Address": "1 Railway Terrace, Beachport SA 5280",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -37.482362,
+      "Long": 140.013783,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 135,
+      "SiteName": "RAA Charge Barunga West Council",
+      "Address": "11 Bay Street, Port Broughton SA 5522",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.600018,
+      "Long": 137.9317902,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 136,
+      "SiteName": "RAA Charge William MacIntosh Motor Lodge",
+      "Address": "20 Stewart Terrace, Naracoorte SA 5271",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -36.944065,
+      "Long": 140.7247532,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 137,
+      "SiteName": "RAA Charge Stansbury Holiday Motel",
+      "Address": "16 Adelaide Road, Stansbury SA 5582",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.903221,
+      "Long": 137.7963904,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 138,
+      "SiteName": "RAA Charge Coober Pedy",
+      "Address": "LOT 773 Hutchison Street, Coober Pedy SA 5723",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -29.014825,
+      "Long": 134.7557612,
+      "Distance": 0.0,
+      "SiteType": "150",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"OUTOFORDER\"},{\"Plug\":\"CCS2\",\"Status\":\"OUTOFORDER\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 150kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 0,
+          "Total": 2,
+          "Statuses": [
+            "In Use"
+          ]
+        },
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 139,
+      "SiteName": "RAA Charge KI Seaside Inn",
+      "Address": "7 Cygnet Road, Kingscote SA 5223",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.659501,
+      "Long": 137.6311127,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 140,
+      "SiteName": "RAA Charge Laura Caravan Park",
+      "Address": "1 Victoria Street, Laura SA 5480",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.181007,
+      "Long": 138.3025539,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 141,
+      "SiteName": "RAA Charge Strath Motel",
+      "Address": "4 North Parade, Strathalbyn SA 5255",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.252198,
+      "Long": 138.8941485,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 22kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 1,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 142,
+      "SiteName": "RAA Charge Steamtown Heritage Rail Centre",
+      "Address": "2 Telford Avenue, Peterborough SA 5422",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -32.975525,
+      "Long": 138.8265536,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 143,
+      "SiteName": "RAA Charge Waikerie Motel",
+      "Address": "108 Ian Oliver Drive, Waikerie SA 5330",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.185989,
+      "Long": 139.9966618,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 144,
+      "SiteName": "RAA Charge The Mill Apartments",
+      "Address": "310 Main North Road, Clare SA 5453",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.831448,
+      "Long": 138.6094747,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 145,
+      "SiteName": "RAA Charge Comfort Inn Whyalla",
+      "Address": "99 Playford Avenue, Whyalla Playford SA 5600",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -33.034573,
+      "Long": 137.5622404,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "All ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 3,
+          "Total": 3,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 146,
+      "SiteName": "RAA Charge Old Tailem Town Pioneer Village",
+      "Address": "8552 Princes Highway, Tailem Bend SA 5260",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.223806,
+      "Long": 139.4227021,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 147,
+      "SiteName": "RAA Charge West Franklin Apartments",
+      "Address": "180 Franklin Street, Adelaide SA 5000",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.927272,
+      "Long": 138.5924566,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 60kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "$0.64 - $0.73/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 148,
+      "SiteName": "RAA Charge Discovery Parks - Hahndorf",
+      "Address": "145a Mount Barker Road, Hahndorf SA 5245",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.023437,
+      "Long": 138.7995414,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "$0.30 - $0.73/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 4,
+          "Total": 4,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 149,
+      "SiteName": "RAA Charge Discovery Parks - Goolwa",
+      "Address": "40 Kessell Road, Goolwa SA 5214",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.497373,
+      "Long": 138.7744819,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 22kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "$0.30 - $0.37/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 150,
+      "SiteName": "RAA Charge Summit Aquatic & Leisure Centre",
+      "Address": "391 Bald Hills Road, Mount Barker SA 5251",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.074679,
+      "Long": 138.8882258,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 11kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "$0.30 - $0.37/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 151,
+      "SiteName": "RAA Charge Jurlique Farm",
+      "Address": "31 Liebelt Road, Biggs Flat SA 5153",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.06873,
+      "Long": 138.7790688,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "$0.00 - $0.37/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 152,
+      "SiteName": "RAA Charge RAA Shop Mile End",
+      "Address": "101 Richmond Road, Mile End SA 5031",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.941553,
+      "Long": 138.5736907,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging at 7kW",
+      "IsPlannedSite": false,
+      "RequireCable": "Some ports require a cable",
+      "Costs": "$0.64 - $0.73/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 153,
+      "SiteName": "RAA Charge Happy Valley Reservoir",
+      "Address": "100 Chandlers Hill Road, Happy Valley SA 5158",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -35.081111,
+      "Long": 138.570833,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"CCS2\",\"Status\":\"AVAILABLE\"},{\"Plug\":\"Type 2\",\"Status\":\"AVAILABLE\"}]",
+      "NiceSiteType": "Charging up to 60kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        },
+        {
+          "Plug": "CCS2",
+          "AvailableCount": 2,
+          "Total": 2,
+          "Statuses": [
+            "Available"
+          ]
+        }
+      ]
+    },
+    {
+      "ID": 154,
+      "SiteName": "RAA Charge Irvine Wines",
+      "Address": "63 Valley Road, Angaston SA 5235",
+      "SiteDescription": null,
+      "Type": null,
+      "Lat": -34.512049,
+      "Long": 139.0493029,
+      "Distance": 0.0,
+      "SiteType": "7",
+      "PlugType": "[{\"Plug\":\"Type 2\",\"Status\":\"UNKNOWN\"}]",
+      "NiceSiteType": "Charging up to 22kW",
+      "IsPlannedSite": false,
+      "RequireCable": "No ports require a cable",
+      "Costs": "$0.30 - $0.37/kWh",
+      "SitePlugsResult": [
+        {
+          "Plug": "Type 2",
+          "AvailableCount": 0,
+          "Total": 1,
+          "Statuses": [
+            "In Use"
+          ]
+        }
+      ]
+    }
+  ]
+}
