@@ -11,19 +11,11 @@
 </head>
 <body>
     <header class="site-header">
-        <div class="header-top">
-            <div class="logo">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-                </svg>
-                <span>EV Charger Finder</span>
-            </div>
-        </div>
         <div class="header-filters">
             <div class="filter-bar">
                 <div class="filter-item">
                     <div class="input-wrapper">
-                        <input type="text" id="postcode" class="filter-input" placeholder="Location or postcode">
+                        <input type="text" id="postcode" class="filter-input" placeholder="Location or postcode" value="5000">
                         <button type="button" id="use-location" class="location-btn" title="Use my location">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <circle cx="12" cy="12" r="3"/>
@@ -33,48 +25,68 @@
                     </div>
                 </div>
 
-                <div class="filter-item">
-                    <select id="radius" class="filter-select">
-                        <option value="5">5 km</option>
-                        <option value="10">10 km</option>
-                        <option value="25" selected>25 km</option>
-                        <option value="50">50 km</option>
-                        <option value="100">100 km</option>
-                        <option value="0">All of SA</option>
-                    </select>
+                <div class="filter-item dropdown">
+                    <button type="button" class="dropdown-toggle" id="radius-dropdown-btn">
+                        <span id="radius-label">50 km</span>
+                    </button>
+                    <div class="dropdown-menu" id="radius-dropdown">
+                        <label class="checkbox-item">
+                            <input type="radio" name="radius" value="5">
+                            <span class="checkbox-custom"></span>
+                            <span>5 km</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="radio" name="radius" value="10">
+                            <span class="checkbox-custom"></span>
+                            <span>10 km</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="radio" name="radius" value="25">
+                            <span class="checkbox-custom"></span>
+                            <span>25 km</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="radio" name="radius" value="50" checked>
+                            <span class="checkbox-custom"></span>
+                            <span>50 km</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="radio" name="radius" value="100">
+                            <span class="checkbox-custom"></span>
+                            <span>100 km</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="radio" name="radius" value="0">
+                            <span class="checkbox-custom"></span>
+                            <span>All of SA</span>
+                        </label>
+                    </div>
                 </div>
 
                 <div class="filter-item dropdown">
                     <button type="button" class="dropdown-toggle" id="power-dropdown-btn">
                         <span>Power</span>
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="m6 9 6 6 6-6"/>
-                        </svg>
                     </button>
                     <div class="dropdown-menu" id="power-dropdown">
                         <label class="checkbox-item">
                             <input type="checkbox" name="power" value="7" checked>
                             <span class="checkbox-custom"></span>
                             <span>7 kW</span>
-                            <span class="power-tag slow">Slow</span>
                         </label>
                         <label class="checkbox-item">
                             <input type="checkbox" name="power" value="22" checked>
                             <span class="checkbox-custom"></span>
                             <span>Up to 22 kW</span>
-                            <span class="power-tag medium">Medium</span>
                         </label>
                         <label class="checkbox-item">
                             <input type="checkbox" name="power" value="50" checked>
                             <span class="checkbox-custom"></span>
                             <span>Up to 50 kW</span>
-                            <span class="power-tag fast">Fast</span>
                         </label>
                         <label class="checkbox-item">
                             <input type="checkbox" name="power" value="150" checked>
                             <span class="checkbox-custom"></span>
                             <span>50+ kW</span>
-                            <span class="power-tag ultra">Ultra</span>
                         </label>
                     </div>
                 </div>
@@ -82,9 +94,6 @@
                 <div class="filter-item dropdown">
                     <button type="button" class="dropdown-toggle" id="plug-dropdown-btn">
                         <span>Plug Type</span>
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="m6 9 6 6 6-6"/>
-                        </svg>
                     </button>
                     <div class="dropdown-menu" id="plug-dropdown">
                         <label class="checkbox-item">
@@ -105,7 +114,7 @@
                     </div>
                 </div>
 
-                <div class="filter-item">
+                <div class="filter-item" style="display: none;">
                     <label class="toggle-item">
                         <input type="checkbox" id="available-only">
                         <span class="toggle-switch"></span>
@@ -113,7 +122,7 @@
                     </label>
                 </div>
 
-                <button type="button" id="reset-filters" class="btn-reset">Reset</button>
+                <button type="button" id="reset-filters" class="btn-reset" style="display: none;">Reset</button>
             </div>
         </div>
     </header>
@@ -121,7 +130,7 @@
     <main class="main-content">
         <aside class="results-panel">
             <div class="results-header">
-                <span id="results-number">0</span> chargers found
+                <span id="results-number">0</span>&nbsp;chargers found
             </div>
             <div id="results-list" class="results-list"></div>
         </aside>
@@ -134,6 +143,17 @@
             </div>
         </section>
     </main>
+
+    <!-- Mobile Bottom Sheet -->
+    <div id="mobile-bottom-sheet" class="mobile-bottom-sheet collapsed">
+        <div class="sheet-handle" id="sheet-handle"></div>
+        <div class="sheet-header">
+            <span class="sheet-title"><span id="mobile-results-number">0</span>&nbsp;chargers found</span>
+        </div>
+        <div class="sheet-content">
+            <div id="mobile-results-list" class="results-list"></div>
+        </div>
+    </div>
 
     <div id="charger-modal" class="modal">
         <div class="modal-overlay"></div>

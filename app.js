@@ -136,8 +136,14 @@ function setupEventListeners() {
         checkbox.addEventListener('change', debounce(applyFilters, 300));
     });
     
-    // Radius change - auto apply
-    document.getElementById('radius').addEventListener('change', applyFilters);
+    // Radius radio changes - auto apply and update label
+    document.querySelectorAll('input[name="radius"]').forEach(radio => {
+        radio.addEventListener('change', (e) => {
+            const label = e.target.value === '0' ? 'All of SA' : `${e.target.value} km`;
+            document.getElementById('radius-label').textContent = label;
+            applyFilters();
+        });
+    });
     
     // Modal close
     document.querySelector('.modal-close').addEventListener('click', closeModal);
@@ -145,6 +151,29 @@ function setupEventListeners() {
     
     // Dropdown toggles
     setupDropdowns();
+    
+    // Mobile bottom sheet toggle
+    setupMobileBottomSheet();
+}
+
+// Setup mobile bottom sheet
+function setupMobileBottomSheet() {
+    const sheet = document.getElementById('mobile-bottom-sheet');
+    const handle = document.getElementById('sheet-handle');
+    
+    if (!sheet || !handle) return;
+    
+    handle.addEventListener('click', () => {
+        sheet.classList.toggle('collapsed');
+    });
+    
+    // Close sheet when clicking on a result (to see the map)
+    const mobileList = document.getElementById('mobile-results-list');
+    if (mobileList) {
+        mobileList.addEventListener('click', () => {
+            sheet.classList.add('collapsed');
+        });
+    }
 }
 
 // Setup dropdown menus
@@ -244,7 +273,8 @@ async function applyFilters() {
     
     // Get filter values
     const postcodeInput = document.getElementById('postcode').value.trim();
-    const radius = parseFloat(document.getElementById('radius').value);
+    const radiusInput = document.querySelector('input[name="radius"]:checked');
+    const radius = radiusInput ? parseFloat(radiusInput.value) : 50;
     const selectedPowers = getSelectedCheckboxValues('power');
     const selectedPlugs = getSelectedCheckboxValues('plug');
     const availableOnly = document.getElementById('available-only').checked;
@@ -410,15 +440,18 @@ function getMarkerColor(charger) {
 function showInfoWindow(marker, charger) {
     const content = `
         <div class="info-window">
-            <div class="info-window-title">${charger.name}</div>
-            <div class="info-window-address">${charger.address}</div>
-            <div class="info-window-meta">
-                <span class="result-tag">${charger.powerLabel}</span>
-                <span class="result-tag ${charger.totalAvailable > 0 ? 'available' : 'unavailable'}">
-                    ${charger.totalAvailable}/${charger.totalPorts} available
-                </span>
+            <div class="info-window-header"></div>
+            <button class="info-window-close" onclick="closeInfoWindow()">×</button>
+            <div class="info-window-body">
+                <div class="info-window-title">${charger.name}</div>
+                <div class="info-window-address">${charger.address}</div>
+                <div class="info-window-meta">
+                    <span class="result-tag">${charger.powerLabel}</span>
+                    <span class="result-tag ${charger.totalAvailable > 0 ? 'available' : 'unavailable'}">
+                        ${charger.totalAvailable}/${charger.totalPorts} available
+                    </span>
+                </div>
             </div>
-            <button class="info-window-btn" onclick="openChargerModal(${charger.id})">View Details</button>
         </div>
     `;
     
@@ -426,25 +459,26 @@ function showInfoWindow(marker, charger) {
     infoWindow.open(map, marker);
 }
 
+// Close info window
+function closeInfoWindow() {
+    infoWindow.close();
+}
+
 // Update results list
 function updateResultsList(chargers) {
     const container = document.getElementById('results-list');
+    const mobileContainer = document.getElementById('mobile-results-list');
     
-    if (chargers.length === 0) {
-        container.innerHTML = `
-            <div class="no-results">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="11" cy="11" r="8"/>
-                    <path d="m21 21-4.35-4.35"/>
-                </svg>
-                <h3>No chargers found</h3>
-                <p>Try adjusting your filters or search area</p>
-            </div>
-        `;
-        return;
-    }
-    
-    container.innerHTML = chargers.map(charger => `
+    const html = chargers.length === 0 ? `
+        <div class="no-results">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/>
+                <path d="m21 21-4.35-4.35"/>
+            </svg>
+            <h3>No chargers found</h3>
+            <p>Try adjusting your filters or search area</p>
+        </div>
+    ` : chargers.map(charger => `
         <div class="result-item" data-id="${charger.id}" onclick="focusCharger(${charger.id})">
             <div class="result-name">${charger.name}</div>
             <div class="result-address">${charger.address}</div>
@@ -458,11 +492,20 @@ function updateResultsList(chargers) {
             ${charger.distance ? `<div class="result-distance">${charger.distance.toFixed(1)} km away</div>` : ''}
         </div>
     `).join('');
+    
+    container.innerHTML = html;
+    if (mobileContainer) {
+        mobileContainer.innerHTML = html;
+    }
 }
 
 // Update results count
 function updateResultsCount(count) {
     document.getElementById('results-number').textContent = count;
+    const mobileCount = document.getElementById('mobile-results-number');
+    if (mobileCount) {
+        mobileCount.textContent = count;
+    }
 }
 
 // Focus on a specific charger
@@ -615,8 +658,14 @@ function getZoomForRadius(radiusKm) {
 
 // Reset all filters
 function resetFilters() {
-    document.getElementById('postcode').value = '';
-    document.getElementById('radius').value = '25';
+    document.getElementById('postcode').value = '5000';
+    
+    // Reset radius to 50km
+    document.querySelectorAll('input[name="radius"]').forEach(r => r.checked = false);
+    const defaultRadius = document.querySelector('input[name="radius"][value="50"]');
+    if (defaultRadius) defaultRadius.checked = true;
+    document.getElementById('radius-label').textContent = '50 km';
+    
     document.getElementById('available-only').checked = false;
     
     document.querySelectorAll('input[name="power"], input[name="plug"]').forEach(cb => {
